@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+input, .main-result {
+  border: solid 1px #000;
+  outline: none;
+  font-size: inherit;
+  padding-block: 3px 2px;
+  border-radius: .5rem;
+  height: 30px;
+  padding-left: 1rem;
+  width: 50%;
+}
+
+.container {
+  margin: 5rem auto;
+  max-width: 900px;
+  height: 400px;
+  border: solid 1px #000;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main {
+  padding-inline: 3rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.input-curency {
+  margin-block: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-curency input {
+  flex: 2;
+}
+
+.convert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 1rem;
+}
+
+.convert-btn{
+  font-size: inherit;
+  background-color: rgba(89, 170, 89, 0.962);
+  border-style: none;
+  border-radius: .5rem;
+  box-sizing: content-box;
+  padding: .5rem;
+}
+
+#curency {
+  box-sizing: content-box;
+  padding: .5rem;
+  border-radius: .5rem;
+  outline: none;
+}
+
+.result {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 2rem;
+}
+
+.result div {
+  flex: 2;
+}
+

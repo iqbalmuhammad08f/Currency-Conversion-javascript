@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Konversi Mata Uang</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Konversi Mata Uang</h1>
+    </header>
+    <main class="main">
+      <section class="input-curency">
+        <label for="input">Masukkan Nominal:  </label>
+        <input type="text" id="input">
+      </section>
+      <div class="convert">
+        <section class="from-curency">
+          <label for="curency">Dari Mata Uang:</label>
+          <select name="curency" id="curency">
+            <option value="USD">USD-Dolar</option>
+            <option value="EUR">EUR-Euro</option>
+            <option value="IDR">IDR-Rupiah</option>
+          </select>
+        </section>
+        <button class="convert-btn">Convert</button>
+        <section class="to-curency">
+          <label for="curency">Ke Mata Uang:</label>
+          <select name="curency" id="curency">
+            <option value="USD">USD-Dolar</option>
+            <option value="EUR">EUR-Euro</option>
+            <option value="IDR">IDR-Rupiah</option>
+          </select>
+        </section>
+      </div>
+      <section class="result">
+        <p>Hasilnya: </p>
+        <div class="main-result"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
